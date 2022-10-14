@@ -1,8 +1,10 @@
+import star from './images/icon-star.svg';
+
 function Container() {
     return ( 
         <div className='main-container'>
         <div className='img-box'>
-        <img src='/images/icon-star.svg'></img>
+        <img src={star}></img>
         </div>
         <h1>How did we do?</h1>
         <div className='text'>Please let us know how we did with your support<br></br> request.

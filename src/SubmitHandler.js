@@ -1,11 +1,11 @@
-import thankYou from './images/illustration-thank-you.svg'
+import thankYou from './images/illustration-thank-you.svg';
 
 
 function SubmitHandler({items, setSubmit}) {
     
    return ( 
         <div className='main-container page'>
-        <img className='img'src={thankYou} alt=''></img>
+        <img className='img'src={thankYou} alt='thanks'></img>
         <div className='show-choice'>
             You selected {items} out of 5
         </div>
